@@ -315,9 +315,9 @@ export const feedbacks = [
 export const seoData = {
 	title: "Mohit Mishra",
 	description:
-		"A passionate Full Stack Web Developer and Blockchain Developer.",
+		"A passionate Machine Learning Developer and MLOps Enthusiast.",
 	author: "Mohit Mishra",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+	image: "https://avatars.githubusercontent.com/u/71754779?v=4",
 	// url: "https://developer-portfolio-1hanzla100.vercel.app",
 	keywords: [
 		"Mohit",
