@@ -84,7 +84,7 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 -   [Lottie File Source](https://lottiefiles.com)
 
 ## Icons
-Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/)
+Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
 
 👤 **Mohit Mishra**
 
