@@ -1,16 +1,22 @@
-import React from "react";
-import Lottie from "react-lottie";
+import React, { useEffect, useState } from "react";
+import Lottie from "lottie-react";
 
 const GreetingLottie = ({ animationPath }) => {
-	const defaultOptions = {
-		loop: true,
-		autoplay: true,
-		path: animationPath,
-	};
+	const [animationData, setAnimationData] = useState(null);
+
+	useEffect(() => {
+		fetch(animationPath)
+			.then((res) => res.json())
+			.then((data) => setAnimationData(data));
+	}, [animationPath]);
+
+	if (!animationData) {
+		return null;
+	}
 
 	return (
 		<div onClick={() => null}>
-			<Lottie options={defaultOptions} />
+			<Lottie animationData={animationData} loop={true} autoplay={true} />
 		</div>
 	);
 };
