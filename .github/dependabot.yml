@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"  # Adjust to "daily" if you prefer more frequent checks
+    groups:
+      all-updates:
+        patterns:
+          - "*"  # This groups all dependencies into a single PR
